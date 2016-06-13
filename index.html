@@ -7,11 +7,46 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <title>Landing Page</title>
+    <style>
+
+        html{
+            background: url('http://lorempixel.com/1200/800/');
+            -webkit-background-image: url('http://lorempixel.com/1200/800/');
+            -moz-background-image: url('http://lorempixel.com/1200/800/sports/');
+            -o-background-image: url('http://lorempixel.com/1200/800/sports/');
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+
+        body{
+            padding-top: 20px;
+            font-size: 18px;
+            font-family: "Open Sans", "seif";
+            background: transparent;
+        }
+
+        h1{
+            font-weight: 400;
+            font-size: 40px;
+            font-family: "Abel",Arial,sans-serif;
+        }
+
+        .margin-vertival {
+            margin: 30px 0;
+        }
+
+        .panel {
+            background-color: floralwhite;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-6 col-md-offset-3 panel">
 
             <h1>Lorem ipsum dolor sit.</h1>
 
@@ -25,17 +60,17 @@
             <form action="" method="post">
 
                 <p class="input-group">
-                    <span class="input-group-add"></span>
-                    <input type="text" class="email">
+                    <span class="input-group-add">
+                        <i class="fa fa-envelope"></i>
+                    </span>
+                    <input type="email" class="form-control" name="email" placeholder="Your email here">
                 </p>
+
+
 
                 <p>No et preocupis per l'SPAM</p>
 
-                <p>
-                    <input type="submit" value="Suscrive"
-                           class="btn btn-success btn-lg">
-
-                </p>
+                <p class="text-center"><input type="button" value="Subscribe" class="btn btn-success btn-lg"></p>
             </form>
 
         </div>
